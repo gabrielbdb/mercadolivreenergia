@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+html {
+  height: 100vh;
+  }
+
+body {
+  height: 100vh;
+  background-image: url(https://www.blog.leadenergy.com.br/wp-content/uploads/2023/09/mercado_livre_de_energia-1280x640.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  }
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.leads {
+  text-align: justify;
+  color: white;
+}
+
+.leads img{
+ width: 320px;
+}
+
+.mc-field-group {
+  color: white;
+}
+form {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.341);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+form h2 {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  line-height: 30px;
+  margin-bottom: 60px;
+}
+
+.input-box {
+  margin-bottom: 20px;
+}
+.input-box label {
+  display: block;
+  color: white;
+}
+
+.input-box input {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+}
+
